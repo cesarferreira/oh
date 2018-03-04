@@ -26,8 +26,8 @@ function getDirectories(path) {
 }
 
 function getAppList() {
-  // return ['android studio', 'yo mama', 'more apps']
   return getDirectories(`/Applications/`)
+    .map(folder => folder.replace('.app', ''))
 }
 
 function showApplicationList(appList) {
@@ -41,7 +41,7 @@ function showApplicationList(appList) {
       return fuzzySearch(appList, input)
     }
   }).then(answer => {
-    log(answer)
+    Utils.title(`Opening ${answer.app}`)
     openApp(answer.app)
   });
 }

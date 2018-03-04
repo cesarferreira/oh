@@ -1,7 +1,7 @@
 {
   "name": "openhere",
   "version": "0.0.0",
-  "description": "Quickly open an app in the folder you're currently in",
+  "description": "Quickly open any app in the folder you're currently in",
   "author": {
     "name": "Cesar Ferreira",
     "email": "cesar.manuel.ferreira@gmail.com",

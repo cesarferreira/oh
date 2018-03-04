@@ -1,6 +1,6 @@
 <p align="center"><a href="https://github.com/cesarferreira/openhere" target="_blank"><img width="200"src="extras/open_animation.gif"></a></p>
 <h1 align="center">openhere</h1>
-<p align="center">Quickly <i>open</i> an app in the folder you're currently in</p>
+<p align="center">Quickly <i>open</i> any app in the folder you're currently in</p>
 <p align="center">
   <a href="https://travis-ci.org/cesarferreira/openhere"><img src="https://travis-ci.org/cesarferreira/openhere.svg?branch=master" alt="Build Status"></a>
   <a href="https://www.npmjs.com/package/openhere"><img src="https://img.shields.io/npm/dt/openhere.svg" alt="npm"></a>
