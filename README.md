@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/cesarferreira/openhere" target="_blank"><img width="200"src="extras/walk.gif"></a></p>
+<p align="center"><a href="https://github.com/cesarferreira/openhere" target="_blank"><img width="200"src="extras/open_animation.gif"></a></p>
 <h1 align="center">openhere</h1>
 <p align="center">Quickly <i>open</i> an app in the folder you're currently in</p>
 <p align="center">
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="extras/anim.gif" width="100%" />
+  <img src="extras/screenshot.png" width="100%" />
 </p>
 
 ## Install
@@ -19,18 +19,12 @@ npm install -g openhere
 ```
 
 ## Usage
-Connect your android phone or emulator to your computer and run:
+Run the command and enjoy the app being opened where you want it
 
 ```
 Usage
    $ openhere
 ```
-
-Choose between:
-- **Open**
-- **Uninstall** 
-- **Clear App Data**
-- **Download APK**
 
 ## Created by
 [Cesar Ferreira](https://cesarferreira.com)
