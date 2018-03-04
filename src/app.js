@@ -29,7 +29,7 @@ function getAppList() {
   let result = getDirectories(`/Applications/`)
     .map(folder => folder.replace('.app', ''))
 
-  result.add('finder')
+  result.push('finder')
   return result
 }
 
