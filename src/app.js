@@ -26,8 +26,11 @@ function getDirectories(path) {
 }
 
 function getAppList() {
-  return getDirectories(`/Applications/`)
+  let result = getDirectories(`/Applications/`)
     .map(folder => folder.replace('.app', ''))
+
+  result.add('finder')
+  return result
 }
 
 function showApplicationList(appList) {
