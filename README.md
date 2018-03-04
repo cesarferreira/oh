@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/cesarferreira/openhere" target="_blank"><img width="200"src="extras/open_animation.gif"></a></p>
+<p align="center"><a href="https://github.com/cesarferreira/openhere" target="_blank"><img width="200"src="extras/where.gif"></a></p>
 <h1 align="center">openhere</h1>
 <p align="center">Quickly <i>open</i> any app in the folder you're currently in</p>
 <p align="center">
@@ -19,7 +19,7 @@ npm install -g openhere
 ```
 
 ## Usage
-Run the command and enjoy the app being opened where you want it
+Run the command and enjoy the app being opened where you want it, I use it all the time for `Android Studio` and `Source Tree`
 
 ```
 Usage
@@ -31,7 +31,3 @@ Usage
 
 ## License
 MIT © [Cesar Ferreira](http://cesarferreira.com)
-
-
-## Logo
-by <a href="http://www.iconka.com">iconka</a>
