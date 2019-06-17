@@ -8,17 +8,17 @@ const updateNotifier = require('update-notifier');
 const pkg = require('./package.json');
 
 updateNotifier({
-  pkg
+    pkg
 }).notify();
 
 const cli = meow(`
 Usage
-   $ openhere
+   $ oh
 `, {
-  alias: {
-    v: 'version'
-  },
-  boolean: ['version']
+    alias: {
+        v: 'version'
+    },
+    boolean: ['version']
 });
 
 app.init(cli.input, cli.flags);
