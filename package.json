@@ -1,6 +1,6 @@
 {
     "name": "oh-cli",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "description": "Quickly open any app in the folder you're currently in",
     "author": {
         "name": "Cesar Ferreira",
