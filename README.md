@@ -2,7 +2,6 @@
 <h1 align="center">oh</h1>
 <p align="center">Quickly <i>open</i> any app in the folder you're currently in (<i><strong>O</strong>pen <strong>H</strong>ere</i>)</p>
 <p align="center">
-  <a href="https://travis-ci.org/cesarferreira/oh"><img src="https://travis-ci.org/cesarferreira/oh.svg?branch=master" alt="Build Status"></a>
   <a href="https://www.npmjs.com/package/oh-cli"><img src="https://img.shields.io/npm/dt/oh-cli.svg" alt="npm"></a>
   <a href="https://www.npmjs.com/package/oh-cli"><img src="https://img.shields.io/npm/v/oh-cli.svg" alt="npm"></a>
   <a href="https://github.com/cesarferreira/oh/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
