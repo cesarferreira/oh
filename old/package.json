@@ -1,0 +1,36 @@
+{
+    "name": "oh-cli",
+    "version": "2.0.2",
+    "description": "Quickly open any app in the folder you're currently in",
+    "author": {
+        "name": "Cesar Ferreira",
+        "email": "cesar.manuel.ferreira@gmail.com",
+        "url": "http://cesarferreira.com"
+    },
+    "scripts": {
+        "start": "node cli.js",
+        "test": "node test.js"
+    },
+    "bin": {
+        "oh": "cli.js"
+    },
+    "main": "cli.js",
+    "keywords": [],
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "fuzzy": "^0.1.3",
+        "inquirer-autocomplete-prompt": "^0.11.1",
+        "meow": "^5.0.0",
+        "shelljs": "^0.8.3",
+        "update-notifier": "^3.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cesarferreira/oh.git"
+    },
+    "bugs": {
+        "url": "https://github.com/cesarferreira/oh/issues"
+    },
+    "homepage": "https://github.com/cesarferreira/oh#readme",
+    "license": "MIT"
+}

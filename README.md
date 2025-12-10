@@ -25,6 +25,16 @@ Usage
    $ oh
 ```
 
+## Rust version
+
+A Rust port of the CLI lives in `oh-rs/`.
+
+```
+cd oh-rs
+cargo install --path . # installs `oh-rs` binary
+oh-rs                    # run it in the folder you want to open
+```
+
 ## Created by
 [Cesar Ferreira](https://cesarferreira.com)
 
