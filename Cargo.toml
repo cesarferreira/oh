@@ -1,7 +1,11 @@
 [package]
-name = "oh-rs"
+name = "open-here"
 version = "0.1.0"
 edition = "2024"
+
+[[bin]]
+name = "oh"
+path = "src/main.rs"
 
 [dependencies]
 anyhow = "1.0"

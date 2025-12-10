@@ -44,14 +44,16 @@ fn list_apps_in(path: impl AsRef<Path>) -> Result<Vec<String>> {
         let entry = entry?;
         if entry.file_type()?.is_dir() {
             let name = entry.file_name();
-            let mut name = name
+            let name = name
                 .to_str()
-                .ok_or_else(|| anyhow!("Unexpected non-UTF-8 filename"))?
-                .to_string();
+                .ok_or_else(|| anyhow!("Unexpected non-UTF-8 filename"))?;
 
-            if let Some(trimmed) = name.strip_suffix(".app") {
-                name = trimmed.to_string();
+            // Skip hidden apps (starting with ".")
+            if name.starts_with('.') {
+                continue;
             }
+
+            let name = name.strip_suffix(".app").unwrap_or(name).to_string();
             apps.push(name);
         }
     }
