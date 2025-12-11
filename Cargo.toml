@@ -2,6 +2,13 @@
 name = "open-here"
 version = "3.0.0"
 edition = "2024"
+description = "Quickly open any app in the folder you're currently in"
+license = "MIT"
+repository = "https://github.com/cesarferreira/oh"
+homepage = "https://github.com/cesarferreira/oh"
+readme = "README.md"
+keywords = ["cli", "macos", "productivity", "launcher"]
+categories = ["command-line-utilities"]
 
 [[bin]]
 name = "oh"
