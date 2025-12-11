@@ -1,0 +1,13 @@
+[package]
+name = "open-here"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "oh"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0"
+console = "0.15"
+dialoguer = { version = "0.11", features = ["fuzzy-select"] }
