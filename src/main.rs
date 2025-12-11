@@ -1,6 +1,7 @@
 use std::{fs, path::Path, process::Command};
 
 use anyhow::{Context, Result, anyhow, bail};
+use console::Style;
 use dialoguer::{FuzzySelect, theme::ColorfulTheme};
 
 fn main() -> Result<()> {
@@ -62,7 +63,10 @@ fn list_apps_in(path: impl AsRef<Path>) -> Result<Vec<String>> {
 }
 
 fn prompt_user(apps: &[String]) -> Result<Option<String>> {
-    let theme = ColorfulTheme::default();
+    let theme = ColorfulTheme {
+        fuzzy_match_highlight_style: Style::new().bold().cyan(),
+        ..ColorfulTheme::default()
+    };
     let selection = FuzzySelect::with_theme(&theme)
         .with_prompt("What app do you want to Open Here?")
         .max_length(10)
